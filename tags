@@ -1,0 +1,115 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARG_MAX	apue.h	27;"	d
+CC	Makefile	/^CC = gcc -O2 $/;"	m
+CC	unix_app/Makefile	/^CC = gcc -O2$/;"	m
+CFG	unix_app/CFG.cpp	/^CFG::CFG()$/;"	f	class:CFG
+CFG	unix_app/CFG.cpp	/^class CFG$/;"	c	file:
+CMSG_LEN	apue.h	8;"	d
+ChkProcess	unix_app/CFG.cpp	/^void CFG::ChkProcess()   		\/\/Sample verificaiton one by one.$/;"	f	class:CFG
+DEF_PAGER	pl15-2.c	4;"	d	file:
+DIR_MODE	apue.h	36;"	d
+FILE_MODE	apue.h	31;"	d
+FMT	pl7-8.c	6;"	d	file:
+FMT	pl7-8.c	8;"	d	file:
+HaveExist	unix_app/CFG.cpp	/^bool CFG::HaveExist(string strIns)$/;"	f	class:CFG
+LIBS	Makefile	/^LIBS = 	.\/libapue.a	$/;"	m
+MAXLINE	apue.h	26;"	d
+MYOUTPUT	unix_app/CFG.cpp	14;"	d	file:
+NUM	unix_app/hello_multi.c	4;"	d	file:
+NUM	unix_app/incrprint.c	4;"	d	file:
+ParseFile	unix_app/CFG.cpp	/^bool CFG::ParseFile(char* sampleFile)           \/\/seperate rule and sample$/;"	f	class:CFG
+ReCompare	unix_app/CFG.cpp	/^void CFG::ReCompare(stack<string> stk, int index)$/;"	f	class:CFG
+RetriveRule	unix_app/CFG.cpp	/^void CFG::RetriveRule(string strParse)   \/\/store rules$/;"	f	class:CFG
+RetriveStack	unix_app/CFG.cpp	/^string CFG::RetriveStack()$/;"	f	class:CFG
+SIG_ERR	apue.h	41;"	d
+Sigfunc	apue.h	/^typedef	void	Sigfunc(int);	\/* for signal handlers *\/$/;"	t
+TELL_CHILD	pl15-3.c	/^void TELL_CHILD(pid_t pid)$/;"	f
+TELL_PARENT	pl15-3.c	/^void TELL_PARENT(pid_t pid)$/;"	f
+TELL_WAIT	pl15-3.c	/^void TELL_WAIT(void)$/;"	f
+TOK_ADD	pl7-10.c	3;"	d	file:
+ValidRegion	unix_app/CFG.cpp	/^int CFG::ValidRegion(string strSource)$/;"	f	class:CFG
+WAIT_CHILD	pl15-3.c	/^void WAIT_CHILD(void)$/;"	f
+WAIT_PARENT	pl15-3.c	/^void WAIT_PARENT(void)$/;"	f
+_APUE_H	apue.h	4;"	d
+_XOPEN_SOURCE	apue.h	10;"	d
+_XOPEN_SOURCE	apue.h	7;"	d
+buf	pl8-1.c	/^char buf[] = "a write to stdout\\n";$/;"	v
+buf	pl8-2.c	/^char buf[] = "a write to stdout\\n";$/;"	v
+charatatime	pl8-6.c	/^static void charatatime(char *str)$/;"	f	file:
+charatatime	pl8-7.c	/^static void charatatime(char *str)$/;"	f	file:
+chkCase	unix_app/CFG.cpp	/^bool CFG::chkCase(string strCase)    $/;"	f	class:CFG
+chkTop	unix_app/CFG.cpp	/^bool CFG::chkTop(string strCase)$/;"	f	class:CFG
+cmd_add	pl7-10.c	/^cmd_add (void)$/;"	f
+counter	unix_app/incrprint.c	/^int counter = 0;$/;"	v
+do_line	pl7-10.c	/^do_line (char *ptr)		\/* process one line of input *\/$/;"	f
+doit	pl7-8.c	13;"	d	file:
+env_init	pl8-8.c	/^char *env_init[] = {"USER=unknown","PATH=\/tmp",NULL};$/;"	v
+f1	pl7-6.c	/^static void f1(int i,int j,int k,int l)$/;"	f	file:
+f2	pl7-6.c	/^static void f2(void)$/;"	f	file:
+get_token	pl7-10.c	/^get_token (void)$/;"	f
+glob	pl8-1.c	/^int glob = 6;$/;"	v
+glob	pl8-2.c	/^int glob = 6;$/;"	v
+globval	pl7-6.c	/^static int	globval;$/;"	v	file:
+iPos	unix_app/CFG.cpp	/^	string::size_type iPos;$/;"	m	class:CFG	file:
+is_read_lockable	apue.h	104;"	d
+is_write_lockable	apue.h	106;"	d
+jmpbuffer	pl7-10.c	/^jmp_buf jmpbuffer;$/;"	v
+jmpbuffer	pl7-6.c	/^static jmp_buf	jmpbuffer;$/;"	v	file:
+main	pl1-1.c	/^int main(int argc,char *argv[])$/;"	f
+main	pl1-2.c	/^int main()$/;"	f
+main	pl15-1.c	/^int main()$/;"	f
+main	pl15-2.c	/^int main(int argc, char *argv[])$/;"	f
+main	pl3-1.c	/^int main()$/;"	f
+main	pl3-4.c	/^int main(int argc,char *argv[])$/;"	f
+main	pl4-1.c	/^int main(int argc, char *argv[])$/;"	f
+main	pl7-1.c	/^main()$/;"	f
+main	pl7-1.s	/^main:$/;"	l
+main	pl7-10.c	/^main (void)$/;"	f
+main	pl7-2.c	/^int main()$/;"	f
+main	pl7-3.c	/^int main(int argc,char *argv[])$/;"	f
+main	pl7-6.c	/^int main()$/;"	f
+main	pl7-8.c	/^int main()$/;"	f
+main	pl8-1.c	/^int main()$/;"	f
+main	pl8-10.c	/^int main()$/;"	f
+main	pl8-2.c	/^main ()$/;"	f
+main	pl8-4.c	/^int main()$/;"	f
+main	pl8-5.c	/^int main()$/;"	f
+main	pl8-6.c	/^int main()$/;"	f
+main	pl8-7.c	/^int main()$/;"	f
+main	pl8-8.c	/^int main()$/;"	f
+main	pl8-9.c	/^int main(int argc, char *argv[])$/;"	f
+main	unix_app/CFG.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	unix_app/hello_multi.c	/^int main()$/;"	f
+main	unix_app/incrprint.c	/^int main()$/;"	f
+makethread	pl12-1.c	/^int makethread(void *(*fn)(void *),void *arg)$/;"	f
+mapRule	unix_app/CFG.cpp	/^	multimap<string,string> mapRule;   \/\/rules' left and right pairs after transforming the rules$/;"	m	class:CFG	file:
+max	apue.h	45;"	d
+min	apue.h	44;"	d
+my_exit1	pl7-2.c	/^static void my_exit1()$/;"	f	file:
+my_exit2	pl7-2.c	/^static void my_exit2()$/;"	f	file:
+pfd1	pl15-3.c	/^static int pfd1[2],pfd2[2];$/;"	v	file:
+pfd2	pl15-3.c	/^static int pfd1[2],pfd2[2];$/;"	v	file:
+pr_exit	pl8-3.c	/^void pr_exit(int status)$/;"	f
+pr_exit	pl8-3.s	/^pr_exit:$/;"	l
+pr_limits	pl7-8.c	/^static void pr_limits(char *name,int resource)$/;"	f	file:
+print_count	unix_app/incrprint.c	/^void *print_count(void *m)$/;"	f
+print_msg	unix_app/hello_multi.c	/^void *print_msg(void *m)$/;"	f
+pushStack	unix_app/CFG.cpp	/^bool CFG::pushStack(string strPush)$/;"	f	class:CFG
+read_lock	apue.h	91;"	d
+readw_lock	apue.h	93;"	d
+setStk	unix_app/CFG.cpp	/^	set<string> setStk;$/;"	m	class:CFG	file:
+stkRule	unix_app/CFG.cpp	/^	stack<string> stkRule;   \/\/Rule's stack$/;"	m	class:CFG	file:
+strEmpty	unix_app/CFG.cpp	/^	string strEmpty;$/;"	m	class:CFG	file:
+strRoot	unix_app/CFG.cpp	/^	string strRoot;$/;"	m	class:CFG	file:
+strSet	unix_app/CFG.cpp	/^	string strSet;$/;"	m	class:CFG	file:
+strTerminals	unix_app/CFG.cpp	/^	string strTerminals;$/;"	m	class:CFG	file:
+tok_ptr	pl7-10.c	/^char *tok_ptr;			\/* global pointer for get_token() *\/$/;"	v
+un_lock	apue.h	99;"	d
+vecCase	unix_app/CFG.cpp	/^	vector<string> vecCase;  \/\/vector, string set of samples. vector, container, set of the same type.$/;"	m	class:CFG	file:
+write_lock	apue.h	95;"	d
+writew_lock	apue.h	97;"	d

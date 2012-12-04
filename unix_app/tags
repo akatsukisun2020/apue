@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC = gcc -O2$/;"	m
+CFG	CFG.cpp	/^CFG::CFG()$/;"	f	class:CFG
+CFG	CFG.cpp	/^class CFG$/;"	c	file:
+ChkProcess	CFG.cpp	/^void CFG::ChkProcess()   		\/\/Sample verificaiton one by one.$/;"	f	class:CFG
+HaveExist	CFG.cpp	/^bool CFG::HaveExist(string strIns)$/;"	f	class:CFG
+MYOUTPUT	CFG.cpp	14;"	d	file:
+NUM	hello_multi.c	4;"	d	file:
+NUM	incrprint.c	4;"	d	file:
+ParseFile	CFG.cpp	/^bool CFG::ParseFile(char* sampleFile)           \/\/seperate rule and sample$/;"	f	class:CFG
+ReCompare	CFG.cpp	/^void CFG::ReCompare(stack<string> stk, int index)$/;"	f	class:CFG
+RetriveRule	CFG.cpp	/^void CFG::RetriveRule(string strParse)   \/\/store rules$/;"	f	class:CFG
+RetriveStack	CFG.cpp	/^string CFG::RetriveStack()$/;"	f	class:CFG
+ValidRegion	CFG.cpp	/^int CFG::ValidRegion(string strSource)$/;"	f	class:CFG
+chkCase	CFG.cpp	/^bool CFG::chkCase(string strCase)    $/;"	f	class:CFG
+chkTop	CFG.cpp	/^bool CFG::chkTop(string strCase)$/;"	f	class:CFG
+counter	incrprint.c	/^int counter = 0;$/;"	v
+iPos	CFG.cpp	/^	string::size_type iPos;$/;"	m	class:CFG	file:
+main	CFG.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	hello_multi.c	/^int main()$/;"	f
+main	incrprint.c	/^int main()$/;"	f
+mapRule	CFG.cpp	/^	multimap<string,string> mapRule;   \/\/rules' left and right pairs after transforming the rules$/;"	m	class:CFG	file:
+print_count	incrprint.c	/^void *print_count(void *m)$/;"	f
+print_msg	hello_multi.c	/^void *print_msg(void *m)$/;"	f
+pushStack	CFG.cpp	/^bool CFG::pushStack(string strPush)$/;"	f	class:CFG
+setStk	CFG.cpp	/^	set<string> setStk;$/;"	m	class:CFG	file:
+stkRule	CFG.cpp	/^	stack<string> stkRule;   \/\/Rule's stack$/;"	m	class:CFG	file:
+strEmpty	CFG.cpp	/^	string strEmpty;$/;"	m	class:CFG	file:
+strRoot	CFG.cpp	/^	string strRoot;$/;"	m	class:CFG	file:
+strSet	CFG.cpp	/^	string strSet;$/;"	m	class:CFG	file:
+strTerminals	CFG.cpp	/^	string strTerminals;$/;"	m	class:CFG	file:
+vecCase	CFG.cpp	/^	vector<string> vecCase;  \/\/vector, string set of samples. vector, container, set of the same type.$/;"	m	class:CFG	file:
